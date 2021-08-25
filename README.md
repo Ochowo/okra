@@ -31,11 +31,6 @@ To test the application, you can visit the url and navigate to any of the tab on
 ## Limitations
 * Application is not using a real database rather it is storing data in locally in files.
 
-## Improvements
-* Clean up the code
-* Write test for the code
-* Save the data in a db instead of locally.
-* Add more interractive elements in the recommendations table
-* Show a representation of the market shares
+
 
 
