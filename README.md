@@ -1,70 +1,41 @@
-# Getting Started with Create React App
+# [Okra](https://sharp-goldwasser-b1ca07.netlify.app/)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `yarn start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
 ### Deployment
+App is deployed [here](https://sharp-goldwasser-b1ca07.netlify.app/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## Technologies Used
+* [React](https://reactjs.org/) - JavaScript Library for Building User Interfaces
+* [Victory](https://formidable.com/open-source/victory/) - React.js components for modular charting and data visualization.
+* [TailwindCss](https://tailwindcss.com/) - A Utility First CSS framework
 
-### `yarn build` fails to minify
+## Features Implemented
+* Users should be able to view, search and sort a table of recommendations.
+* Users should be able to view the rep performance
+  * A graph of rep performance over time
+  * A visualization of rep sales vs national sales and reps sale vs regional sale per quarter and region
+  * A visualization of reps adherence vs other reps adherence per quarter
+  * Volume of calls, emails and Visits on target
+  * Volume of outstanding suggestions by priority
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Getting Started
+* Clone this repository using git clone `https://github.com/Ochowo/okra.git`
+* Run `yarn install` to install all dependencies
+* Run `yarn start` to start the server
+* Navigate to `localhost:3000` in browser to access the application
+
+## Using the Live App
+The live application is hosted at [https://sharp-goldwasser-b1ca07.netlify.app/](https://sharp-goldwasser-b1ca07.netlify.app/).
+To test the application, you can visit the url and navigate to any of the tab on the side navigations to view the features listed above.
+
+## Limitations
+* Application is not using a real database rather it is storing data in locally in files.
+
+## Improvements
+* Clean up the code
+* Write test for the code
+* Save the data in a db instead of locally.
+* Add more interractive elements in the recommendations table
+* Show a representation of the market shares
+
+
